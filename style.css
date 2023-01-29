@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    display: block;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    max-width:250px;
+    max-height:200px;
+    margin: auto;
+    text-align: center;
+    background-color: teal;
+   
+}
+
+.main {
+    display: block;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+
+}
+
+  
+.weather{
+
+    display: block;
+}
+
+
+.days{
+    display:block;
+  
+}
+
+
+.sunrise-sunset {
+    display:block;
+
+}
+
+
