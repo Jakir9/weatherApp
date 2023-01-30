@@ -1,15 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: large;
     display: block;
     align-items:center ;
     justify-content: center;
     flex-direction: column;
-    max-width:250px;
-    max-height:200px;
+    max-width:400px;
+    max-height:400px;
     margin: auto;
     text-align: center;
-    background-color: teal;
+
+    background-image: url('https://source.unsplash.com/1600x900/?nature,landscape');
    
 }
 
@@ -18,7 +19,13 @@ body{
     align-items:center ;
     justify-content: center;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: #000000d0;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 30px;
+    outline: 0.1em solid white ;
+    color: white;
+    font-family: inherit;
 
 }
 
@@ -26,17 +33,43 @@ body{
 .weather{
 
     display: block;
+    background-color: transparent;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 30px;
+    font-family: inherit;
+    
 }
 
 
 .days{
     display:block;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 0.1em;
+    margin: 0.5em;
+    font-family: inherit;
+    
   
 }
 
 
 .sunrise-sunset {
     display:block;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 0.1em;
+    margin: 0.5em;
+    font-family: inherit;
+ 
+}
+
+.card{
+    display:flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-evenly;
+    font-family: inherit;
 
 }
 
