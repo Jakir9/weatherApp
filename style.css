@@ -10,8 +10,7 @@ body{
     margin: auto;
     text-align: center;
 
-    background-image: url('https://source.unsplash.com/1600x900/?nature,landscape');
-   
+    background-image: url('https://source.unsplash.com/1600x900/?nature,landscape');  
 }
 
 .main {
@@ -26,7 +25,6 @@ body{
     outline: 0.1em solid white ;
     color: white;
     font-family: inherit;
-
 }
 
   
@@ -37,8 +35,7 @@ body{
     padding: 0.5em;
     margin: 0.5em;
     border-radius: 30px;
-    font-family: inherit;
-    
+    font-family: inherit; 
 }
 
 
@@ -49,8 +46,6 @@ body{
     padding: 0.1em;
     margin: 0.5em;
     font-family: inherit;
-    
-  
 }
 
 
@@ -61,7 +56,6 @@ body{
     padding: 0.1em;
     margin: 0.5em;
     font-family: inherit;
- 
 }
 
 .card{
@@ -71,6 +65,31 @@ body{
     justify-content: space-evenly;
     font-family: inherit;
 
+}
+
+.search-btn{
+    margin: 0.5em;
+    border-radius: 30%;
+    border: none;
+    height:40px;
+    width: 40px;
+    outline: none;
+    color: #000000d0;
+    font-family: inherit;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.search-bar{
+    
+    border: transparent;
+    outline: transparent;
+    height: 2.5em;
+    width: 12.5em;
+    border-radius: 5%;
+    color: #000000d0;
+    background-color: whitesmoke;
+    text-align: center;
 }
 
 
