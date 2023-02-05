@@ -1,14 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
-
+<script src="./api.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./api.js"></script>
+    <script src="./api.js" defer></script>
+   
 </head>
 <body>
 
@@ -30,36 +31,25 @@
 
       <!--Weather-->
       <div  class="weather">
-      <h1 class="location">Birmingham</h1>
-      <div class="temp">9 degrees celcius </div>
-      <div class="feelsLike">Feels like: temp </div>
+      <h3 class="location"></h3>
+      <div class="temp"> </div>
+      <div class="feelsLike"> </div>
       <img src= "src" alt="" class="icon"/>
-     <div class="description"> Clear Skies</div>
-     <div class="humidity">Humidity: 30% </div>
-     <div class="wind" > Wind Speed: 2 km/h </div>
-     <div class= "lastUpdated">Last Updated:  </div>
+     <div class="description"> </div>
+     <div class="wind" ></div>
      </div>
 
-   
-     <!--DAYS-->
-     <div class="days" > 
-     <div class="Mon" > Mon: temp </div>
-     <div class="Tue" > Tue: temp  </div>
-     <div class="Wed" > Wed: temp  </div>
-     <div class="Thur" > Thur: temp  </div>
-     <div class="Fri" > Fri: temp </div>
-     <div class="Sat" > Sat: temp </div>
-     <div class="Sun" > Sun: temp </div>
-   </div>
 
+  
      <!--Sunrise/Sunset-->
       <div class="sunrise-sunset">
-         <div class="sunset"> sunset:time</div>
-         <div class="sunrise"> sunrise:time</div>
+        <div class="sunrise"></div>
+         <div class="sunset"></div>
+<p></p>
+         <div class= "lastUpdated"> </div>
        </div>
 
    </div>
-  
 
 </body>
 </html>
