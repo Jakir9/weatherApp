@@ -85,7 +85,7 @@ function search(){
 
 function getCityWeather(city){
 
-  fetch("http://api.openweathermap.org/geo/1.0/direct?q="+city+"&limit=1"+"&appid=" + key
+  fetch("https://api.openweathermap.org/geo/1.0/direct?q="+city+"&limit=1"+"&appid=" + key
   )
   .then((response) => response.json()) // gets weather data and represents it in json format
   .then((data) => this.getCoords(data)) // displays data from api
